@@ -18,7 +18,15 @@ A clean and responsive Admin Dashboard built with **React** and **Syncfusion** c
 
 
 ## 🖼️ Screenshots
-
+---
+## Dashboard
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(433).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(434).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(435).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(436).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(437).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(438).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(439).png?raw=true)
 ![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(440).png?raw=true)
 ![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(441).png?raw=true)
 ![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(442).png?raw=true)
@@ -119,4 +127,4 @@ This project is open-source and available under the MIT License.
 Vikash Gupta
 7th Semester, IIITN
 GitHub:- https://github.com/vik802207
-emailid:- vikashg802207@gmail.com
+email-id:- vikashg802207@gmail.com
