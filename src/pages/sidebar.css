@@ -1,0 +1,161 @@
+/* Main Sidebar Container */
+.custom-sidebar {
+  background-color: #fff; /* ✅ white background */
+  color: #000;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Logo */
+.sidebar-logo {
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  color: #000;
+  overflow: auto;
+}
+
+/* Menu Wrapper Background */
+.e-menu-wrapper,
+.e-menu-container {
+  background: #fff; /* ✅ white background */
+}
+
+/* Menu Wrapper Width Fix */
+.e-menu-wrapper ul.e-vertical,
+.e-menu-container ul.e-vertical {
+  min-width: 220px;
+}
+
+/* Menu Items */
+.custom-menu .e-menu-item {
+  padding: 12px 20px !important;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #000000; /* black text */
+  cursor: pointer;
+  max-width: 250px;
+  margin: 4px 10px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover */
+.custom-menu .e-menu-item:hover {
+  background-color: #f2f2f2; /* light grey on hover */
+  color: #000;
+}
+
+/* Active */
+.custom-menu .e-menu-item.active-menu {
+  background-color: var(--theme-color) !important;
+  font-weight: 600;
+}
+
+/* Icons */
+.custom-menu .e-icons {
+  margin-right: 12px;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+/* Separator Headers */
+.custom-menu .e-menu-separator {
+  padding: 1rem 1.2rem 0.3rem 1.2rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+}
+
+/* Docked Menu Styling */
+.custom-sidebar.e-sidebar-docked .e-menu-item {
+  justify-content: center;
+  padding: 10px 0 !important;
+  margin: 10px 0 !important;
+}
+
+.custom-sidebar.e-sidebar-docked .e-menu-item .e-icons {
+  margin: 0;
+}
+
+/* Tooltip on Docked Hover */
+.custom-sidebar.e-sidebar-docked .e-menu-item:hover::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 65px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #444;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 9999;
+}
+.e-menu-wrapper ul.e-menu{
+    background: #ffffff;
+}
+.e-menu-wrapper .e-menu .e-menu-item.e-separator, .e-menu-container .e-menu .e-menu-item.e-separator {
+    border-bottom-color: #000000 !important;
+}
+.e-menu-wrapper ul.e-vertical .e-menu-item, .e-menu-container ul.e-vertical .e-menu-item{
+    height: 55px;
+}
+/* Toggle Button Style */
+/* Hamburger button container */
+.hamburger-btn {
+  position: fixed; /* fixed hi rahe */
+  top: 28px;
+  left: 20px;
+  z-index: 1100;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger-btn .bar {
+  width: 100%;
+  height: 3px;
+  background-color: #000; /* black bars */
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.custom-sidebar::-webkit-scrollbar,
+.custom-menu::-webkit-scrollbar {
+  width: 3px; /* Scrollbar ko bahut patla */
+}
+
+.custom-sidebar::-webkit-scrollbar-track,
+.custom-menu::-webkit-scrollbar-track {
+  background: #111;
+}
+
+.custom-sidebar::-webkit-scrollbar-thumb,
+.custom-menu::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 3px;
+  border: 1px solid #111;
+}
+
+/* Firefox */
+.custom-sidebar,
+.custom-menu {
+  scrollbar-width: thin; /* Firefox ke liye */
+  scrollbar-color: #555 #111;
+}
+

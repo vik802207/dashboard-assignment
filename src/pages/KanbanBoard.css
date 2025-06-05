@@ -1,0 +1,47 @@
+.kanban-container {
+  padding: 20px;
+}
+
+.card-template {
+  padding: 10px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-size: 14px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.tag {
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+}
+
+.priority {
+  font-size: 12px;
+  font-weight: bold;
+  color: #888;
+}
+
+.card-title {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}

@@ -1,0 +1,73 @@
+/* Calendar.css */
+
+.calendar-container {
+   margin: 5%;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calendar-title {
+  font-size: 28px;
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.calendar-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.calendar-controls label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.e-input-group,
+.e-input-group input {
+  font-size: 14px;
+}
+
+/* Customize Syncfusion schedule component */
+.e-schedule {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.e-schedule .e-toolbar {
+  background-color: #f3f4f6;
+  border: none;
+}
+
+.e-schedule .e-schedule-toolbar .e-toolbar-item.e-active {
+  background-color: #1e90ff !important;
+  color: #fff !important;
+  border-radius: 6px;
+}
+
+.e-schedule .e-appointment {
+  border-radius: 8px !important;
+  padding: 6px 10px !important;
+  color: white !important;
+  font-size: 14px !important;
+  font-weight: 500;
+}
+
+.e-schedule .e-appointment .e-subject {
+  font-weight: bold;
+}
+
+.e-schedule .e-vertical-view .e-day-wrapper {
+  background-color: #f9fafb;
+}

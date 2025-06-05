@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { registerLicense } from '@syncfusion/ej2-base';
+import '@syncfusion/ej2-base/styles/material.css';
+import '@syncfusion/ej2-react-navigations/styles/material.css';
+import '@syncfusion/ej2-react-calendars/styles/material.css';
+import '@syncfusion/ej2-react-dropdowns/styles/material.css';
+import '@syncfusion/ej2-react-inputs/styles/material.css';
+import '@syncfusion/ej2-react-popups/styles/material.css';
+import '@syncfusion/ej2-react-schedule/styles/material.css';
+import '@syncfusion/ej2-react-buttons/styles/material.css';
+import '@syncfusion/ej2-react-kanban/styles/material.css';
+import './index.css'; 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+registerLicense("Ngo9BigBOggjHTQxAR8/V1NNaF1cWWhOYVFpR2Nbek5xdV9GaFZVQmY/P1ZhSXxWdkNjW31dcHxRTmddVEx9XUs=")
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);

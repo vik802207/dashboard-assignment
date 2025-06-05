@@ -1,0 +1,131 @@
+.rte-wrapper {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fdfdfd;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.rte-wrapper h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.save-btn {
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.save-btn:hover {
+  background-color: #388e3c;
+}
+
+/* Editor container */
+.richtext-container {
+  margin: 2rem auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  background: #fff;
+}
+
+/* Style the toolbar */
+.e-richtexteditor .e-toolbar {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 15px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for dropdown (Formats) */
+.e-richtexteditor .e-toolbar-item:first-child .e-dropdown-btn {
+  min-width: 140px;
+  border-radius: 6px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Dropdown popup customization */
+.e-richtexteditor .e-dropdown-popup ul {
+  padding: 0;
+  margin: 0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.e-richtexteditor .e-dropdown-popup .e-item {
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #eee;
+}
+
+.e-richtexteditor .e-dropdown-popup .e-item:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Responsive & clean buttons */
+.e-richtexteditor .e-toolbar-item .e-btn {
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.e-richtexteditor .e-toolbar-item .e-btn:hover {
+  background-color: #ececec;
+}
+
+/* Editor content area */
+.e-richtexteditor .e-content {
+  padding: 1.2rem;
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 300px;
+}
+/* Main content area inside the editor */
+.e-richtexteditor .e-content {
+  padding: 1rem;
+  font-size: 16px;
+  line-height: 1.6;
+  min-height: 300px;
+  overflow-wrap: break-word;     /* Break long words */
+  word-break: break-word;        /* Ensure long unbroken text breaks */
+  white-space: normal;           /* Allow wrapping */
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.e-richtexteditor iframe,
+.e-richtexteditor .e-rte-content {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.e-richtexteditor .e-placeholder {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #999;
+  font-style: italic;
+}
+
+.e-richtexteditor .e-content .e-rte-content {
+  overflow-x: hidden;
+}
+

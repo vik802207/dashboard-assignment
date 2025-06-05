@@ -1,0 +1,209 @@
+.employees-container {
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 3%;
+  font-family: sans-serif;
+}
+
+.employees-container h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 16px;
+}
+
+.employees-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #374151;
+}
+
+.employees-table thead {
+  font-size: 12px;
+  color: #6b7280;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.employees-table th,
+.employees-table td {
+  padding: 12px 8px;
+  text-align: left;
+}
+
+.employees-table tbody tr {
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.employees-table tbody tr:hover {
+  background: linear-gradient(to right, #e0f7fa, #e0f2fe);
+  transform: scale(1.005);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+}
+
+.emp-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.emp-info img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.emp-name {
+  font-weight: 500;
+}
+
+.emp-email {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.page-info {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.page-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.page-buttons button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  color: #374151;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.page-buttons button.active {
+  background-color: #2563eb;
+  color: white;
+}
+
+.page-buttons button:hover {
+  background-color: #2a6cc2;
+  color: white;
+}
+.employees-container {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin: 3%;
+  font-family: sans-serif;
+}
+
+.employees-container h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 16px;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.employees-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #374151;
+}
+
+.employees-table thead {
+  font-size: 12px;
+  color: #6b7280;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.employees-table th,
+.employees-table td {
+  padding: 12px 8px;
+  text-align: left;
+}
+
+.employee-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.employee-info img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.employee-info .name {
+  font-weight: 500;
+}
+
+.employee-info .email {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.status.Active {
+  color: #22c55e;
+  font-weight: 500;
+}
+
+.status.Inactive {
+  color: #ef4444;
+  font-weight: 500;
+}
+
+.employees-table tbody tr:hover {
+  background: linear-gradient(90deg, #e0f2fe 0%, #f0f9ff 100%);
+  transition: background 0.3s ease;
+}
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+

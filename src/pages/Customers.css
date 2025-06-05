@@ -1,0 +1,144 @@
+.orders-container {
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  padding: 24px;
+  font-family: sans-serif;
+}
+
+.orders-container h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 16px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #374151;
+  overflow: hidden;
+}
+
+.orders-table thead {
+  font-size: 12px;
+  color: #6b7280;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 12px 8px;
+  text-align: left;
+}
+
+.orders-table tbody tr {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.orders-table tbody tr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(120deg, #ffffff 0%, #f8f8f8 50%, #e0f7fa 100%);
+  transition: all 0.5s ease;
+  z-index: -1;
+}
+
+.orders-table tbody tr:hover::before {
+  left: 0;
+}
+
+.customer-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.customer-info img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.customer-name {
+  font-weight: 500;
+}
+
+.customer-email {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+}
+
+.status-dot {
+  font-size: 8px;
+}
+
+.status.Completed {
+  color: #10b981;
+}
+
+.status.Pending {
+  color: #f59e0b;
+}
+
+.status.Cancel {
+  color: #ef4444;
+}
+
+.status.Active {
+  color: #22c55e;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.page-info {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.page-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.page-buttons button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f3f4f6;
+  color: #374151;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.page-buttons button.active {
+  background-color: #2563eb;
+  color: white;
+}
+
+.page-buttons button:hover {
+  background-color: #2a6cc2;
+}
