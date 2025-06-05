@@ -12,22 +12,6 @@ const Sidebar = () => {
 
   const [sidebarVisible, setSidebarVisible] = useState(window.innerWidth <= 700);
 
-  // Update sidebar visibility on window resize
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth < 700) {
-        setSidebarVisible(false);
-      } else {
-        setSidebarVisible(true);
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
-    handleResize(); // Set initial state based on current width
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, [sidebarVisible]);
-
   const items = [
     { text: "DASHBOARD", separator: true },
     { text: "Ecommerce", iconCss: "e-icons e-home", id: "dashboard" },
