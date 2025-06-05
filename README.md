@@ -46,8 +46,6 @@ A clean and responsive Admin Dashboard built with **React** and **Syncfusion** c
 ![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(456).png?raw=true)
 ![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(457).png?raw=true)
 ![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(458).png?raw=true)
-![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(440).png?raw=true)
-
 
 ---
 
