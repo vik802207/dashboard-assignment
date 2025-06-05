@@ -19,7 +19,27 @@ A clean and responsive Admin Dashboard built with **React** and **Syncfusion** c
 
 ## 🖼️ Screenshots
 
-![Alt text](https://github.com/vik802207/Micro-Collection-Partner-MCP-System/blob/main/img/Screenshot%20(343).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(440).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(441).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(442).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(443).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(444).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(445).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(446).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(447).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(448).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(449).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(450).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(451).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(452).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(453).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(454).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(455).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(456).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(457).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(458).png?raw=true)
+![Alt text](https://github.com/vik802207/dashboard-assignment/blob/main/img/Screenshot%20(440).png?raw=true)
+
 
 ---
 
