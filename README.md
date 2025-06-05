@@ -113,12 +113,23 @@ http://localhost:3000
 - **To apply new icons**, update `iconCss` with valid [Syncfusion](https://ej2.syncfusion.com/react/documentation/common/icon/) or custom icon classes (you can also use emojis like `📊` directly).
 
 - **To change styling**, edit `sidebar.css`.
-- 
-- ## Dependencies
-"@syncfusion/ej2-react-navigations": "^latest",
-"react-router-dom": "^latest",
-"react": "^18+",
-"react-dom": "^18+"
+## 📦 Dependencies
+
+This project relies on the following main packages:
+
+- [`@syncfusion/ej2-react-navigations`](https://www.npmjs.com/package/@syncfusion/ej2-react-navigations) — for Sidebar and Menu components  
+- [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) — for client-side routing  
+- [`react`](https://www.npmjs.com/package/react) `^18+`  
+- [`react-dom`](https://www.npmjs.com/package/react-dom) `^18+`
+
+> You can install them using:
+```bash
+npm install @syncfusion/ej2-react-navigations react-router-dom react react-dom
+```
+
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/View-Live-green?style=for-the-badge&logo=github)](https://dashboard-assignment-snowy.vercel.app/)
 
 ## License
 This project is open-source and available under the MIT License.
