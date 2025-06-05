@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# React Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean and responsive Admin Dashboard built with **React** and **Syncfusion** components. It features a collapsible sidebar with routing, theming, and multiple pages like Orders, Employees, Calendar, Kanban, Editor, and Charts.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- ✅ React + React Router DOM
+- ✅ Syncfusion Sidebar & Menu components
+- ✅ Collapsible Sidebar with Hamburger Toggle
+- ✅ Active route highlighting
+- ✅ Responsive layout
+- ✅ Black & White theme with clean UI
+- ✅ Page routing (Dashboard, Orders, Employees, etc.)
+- ✅ Chart pages (Line, Area)
+- ✅ Minimal custom CSS and styling
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼️ Screenshots
 
-### `npm test`
+> Coming soon...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**
+- **Syncfusion EJ2 React Components**
+- **React Router DOM**
+- **CSS Modules / Custom Styles**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Folder Structure
+```bash
+src/
+│
+├── components/
+│ └── Sidebar.jsx
+│
+├── pages/
+│ ├── Dashboard.jsx
+│ ├── Orders.jsx
+│ ├── Employees.jsx
+│ ├── Customers.jsx
+│ ├── Calendar.jsx
+│ ├── Kanban.jsx
+│ ├── Editor.jsx
+│ ├── ColorPicker.jsx
+│ └── Charts/
+│ ├── Line.jsx
+│ └── Area.jsx
+│
+├── App.js
+├── index.js
+└── sidebar.css
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔧 Installation & Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/your-username/react-admin-dashboard.git
+cd react-admin-dashboard
+Install dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+1. Install dependencies:
+npm install
+2. Run the project:
+npm start
+3. Navigate to:
+http://localhost:3000
+```
+## 🎨 Customization
 
-## Learn More
+- **To change sidebar items**, edit `Sidebar.jsx`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **To modify route-based pages**, edit or create new files inside `/pages/`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **To apply new icons**, update `iconCss` with valid [Syncfusion](https://ej2.syncfusion.com/react/documentation/common/icon/) or custom icon classes (you can also use emojis like `📊` directly).
 
-### Code Splitting
+- **To change styling**, edit `sidebar.css`.
+- 
+- ## Dependencies
+"@syncfusion/ej2-react-navigations": "^latest",
+"react-router-dom": "^latest",
+"react": "^18+",
+"react-dom": "^18+"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
+This project is open-source and available under the MIT License.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ✨ Author
+Vikash Gupta
+7th Semester, IIITN
+GitHub:- https://github.com/vik802207
+emailid:- vikashg802207@gmail.com
