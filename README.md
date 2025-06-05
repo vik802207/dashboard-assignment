@@ -90,8 +90,8 @@ src/
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/react-admin-dashboard.git
-cd react-admin-dashboard
+git clone https://github.com/vik802207/dashboard-assignment.git
+cd dashboard
 Install dependencies:
 
 ```bash
