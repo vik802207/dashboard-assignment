@@ -19,7 +19,7 @@ A clean and responsive Admin Dashboard built with **React** and **Syncfusion** c
 
 ## 🖼️ Screenshots
 
-> Coming soon...
+![Alt text](https://github.com/vik802207/Micro-Collection-Partner-MCP-System/blob/main/img/Screenshot%20(343).png?raw=true)
 
 ---
 
