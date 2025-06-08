@@ -73,7 +73,7 @@ const Sidebar = () => {
           className="custom-sidebar"
         >
           <div className="sidebar-logo">
-            AdminCraft
+            DashPro
             <button className="hamburger-btn" onClick={toggleSidebar}>
               <span className="bar"></span>
               <span className="bar"></span>
